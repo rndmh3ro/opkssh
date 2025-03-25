@@ -13,7 +13,7 @@ To ssh with opkssh you first need to download the opkssh binary and then run:
 opkssh login
 ```
 
-This will open a browser window where you can authenticate to your OpenID Provider. This will generates an SSH key in `~/.ssh/id_ecdsas` which contains your OpenID Connect identity.
+This opens a browser window where you can authenticate to your OpenID Provider. This will generates an SSH key in `~/.ssh/id_ecdsas` which contains your OpenID Connect identity.
 Then you can ssh under this identity to any ssh server which is configured to use opkssh to authenticate users using their OpenID Connect identities.
 
 ```bash
